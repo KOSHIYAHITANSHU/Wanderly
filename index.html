@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderly | Explore the World</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+  <a class="logo" href="index.html">Wander<span>ly</span></a>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+  <nav id="navMenu">
+    <a class="active" href="index.html">Home</a>
+    <a href="destinations.html">Destinations</a>
+    <a href="blog.html">Blog</a>
+    <a href="wishlist.html">Wishlist <span id="wishCount" class="count">0</span></a>
+    <a href="login.html">Login</a>
+    <button id="themeToggle" class="theme-btn" title="Toggle theme">🌙</button>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">TRAVEL • DISCOVER • EXPERIENCE</p>
+    <h1>Explore the world.<br><span>Create your story.</span></h1>
+    <p>Discover famous destinations, find unforgettable things to do, read travel stories and save places you dream of visiting.</p>
+    <div class="hero-actions">
+      <a href="destinations.html" class="btn primary">Explore Destinations</a>
+      <a href="blog.html" class="btn secondary">Read Travel Blog</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-heading">
+    <div><p class="eyebrow">POPULAR NOW</p><h2>Places worth discovering</h2></div>
+    <a href="destinations.html" class="text-link">View all →</a>
+  </div>
+  <div class="destination-grid" id="homeDestinations"></div>
+</section>
+
+<section class="feature-section">
+  <div class="section-heading center">
+    <div><p class="eyebrow">WHY WANDERLY?</p><h2>Travel made inspiring</h2></div>
+  </div>
+  <div class="feature-grid">
+    <article class="feature-card"><div class="feature-icon">🌎</div><h3>Discover</h3><p>Explore well-known destinations and hidden travel inspiration from around the world.</p></article>
+    <article class="feature-card"><div class="feature-icon">📖</div><h3>Learn</h3><p>Get quick information about places, famous attractions and activities.</p></article>
+    <article class="feature-card"><div class="feature-icon">❤️</div><h3>Save</h3><p>Create your own wishlist and keep your dream destinations saved in your browser.</p></article>
+    <article class="feature-card"><div class="feature-icon">✨</div><h3>Experience</h3><p>Find ideas for food, adventure, culture, photography and relaxation.</p></article>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-heading"><div><p class="eyebrow">TRAVEL INSPIRATION</p><h2>Latest stories</h2></div><a href="blog.html" class="text-link">Read more →</a></div>
+  <div class="blog-grid">
+    <article class="blog-card"><img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80" alt="Paris"><div class="blog-body"><span>Europe</span><h3>A first-time guide to Paris</h3><p>Iconic streets, beautiful views and simple ideas for exploring the City of Light.</p><a href="blog.html" class="text-link">Read story →</a></div></article>
+    <article class="blog-card"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=900&q=80" alt="Bali"><div class="blog-body"><span>Asia</span><h3>Slow travel in Bali</h3><p>Beaches, temples, rice terraces and experiences that make Bali memorable.</p><a href="blog.html" class="text-link">Read story →</a></div></article>
+    <article class="blog-card"><img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=900&q=80" alt="Switzerland"><div class="blog-body"><span>Adventure</span><h3>Why Switzerland belongs on your list</h3><p>Mountain scenery, peaceful lakes and scenic journeys through the Alps.</p><a href="blog.html" class="text-link">Read story →</a></div></article>
+  </div>
+</section>
+
+<section class="quote-section">
+  <div>
+    <p class="eyebrow">YOUR NEXT CHAPTER</p>
+    <h2>“The world is waiting to be explored.”</h2>
+    <a href="destinations.html" class="btn primary">Start Exploring</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div><a class="logo" href="index.html">Wander<span>ly</span></a><p>Explore. Dream. Discover.</p></div><div class="footer-links"><a href="index.html">Home</a><a href="destinations.html">Destinations</a><a href="blog.html">Blog</a><a href="wishlist.html">Wishlist</a></div><p class="copyright">© 2026 Wanderly. Student project.</p></footer>
+<script src="js/script.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/destinations.js"></script>
+</body>
+</html>
